@@ -15,6 +15,9 @@
 		0483D7C31D0B12E7003FD949 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0483D7C11D0B12E7003FD949 /* LaunchScreen.storyboard */; };
 		0483D7CE1D0B12E7003FD949 /* SkutHW31EditingTableTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0483D7CD1D0B12E7003FD949 /* SkutHW31EditingTableTestTests.m */; };
 		0483D7D91D0B12E7003FD949 /* SkutHW31EditingTableTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0483D7D81D0B12E7003FD949 /* SkutHW31EditingTableTestUITests.m */; };
+		0483D7E81D0B1D25003FD949 /* IDStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0483D7E71D0B1D25003FD949 /* IDStudent.m */; };
+		0483D7EB1D0B1D32003FD949 /* IDGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 0483D7EA1D0B1D32003FD949 /* IDGroup.m */; };
+		0483D7EC1D0B33E0003FD949 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0483D7B41D0B12E7003FD949 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		0483D7D41D0B12E7003FD949 /* SkutHW31EditingTableTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkutHW31EditingTableTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0483D7D81D0B12E7003FD949 /* SkutHW31EditingTableTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkutHW31EditingTableTestUITests.m; sourceTree = "<group>"; };
 		0483D7DA1D0B12E7003FD949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0483D7E61D0B1D25003FD949 /* IDStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDStudent.h; sourceTree = "<group>"; };
+		0483D7E71D0B1D25003FD949 /* IDStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDStudent.m; sourceTree = "<group>"; };
+		0483D7E91D0B1D32003FD949 /* IDGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDGroup.h; sourceTree = "<group>"; };
+		0483D7EA1D0B1D32003FD949 /* IDGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDGroup.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +112,10 @@
 				0483D7B71D0B12E7003FD949 /* AppDelegate.m */,
 				0483D7B91D0B12E7003FD949 /* ViewController.h */,
 				0483D7BA1D0B12E7003FD949 /* ViewController.m */,
+				0483D7E61D0B1D25003FD949 /* IDStudent.h */,
+				0483D7E71D0B1D25003FD949 /* IDStudent.m */,
+				0483D7E91D0B1D32003FD949 /* IDGroup.h */,
+				0483D7EA1D0B1D32003FD949 /* IDGroup.m */,
 				0483D7BC1D0B12E7003FD949 /* Main.storyboard */,
 				0483D7BF1D0B12E7003FD949 /* Assets.xcassets */,
 				0483D7C11D0B12E7003FD949 /* LaunchScreen.storyboard */,
@@ -270,8 +281,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0483D7EB1D0B1D32003FD949 /* IDGroup.m in Sources */,
 				0483D7BB1D0B12E7003FD949 /* ViewController.m in Sources */,
 				0483D7B81D0B12E7003FD949 /* AppDelegate.m in Sources */,
+				0483D7E81D0B1D25003FD949 /* IDStudent.m in Sources */,
 				0483D7B51D0B12E7003FD949 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0483D7EC1D0B33E0003FD949 /* main.m in Sources */,
 				0483D7CE1D0B12E7003FD949 /* SkutHW31EditingTableTestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
